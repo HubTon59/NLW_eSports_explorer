@@ -9,13 +9,11 @@ ul {
 }
 
 body {
-  background-image: url(https://wallpaperaccess.com/full/21591.jpg);
-  background-position: center;
-  /*background-position: top center;*/
-  /*background-size: 100% auto;*/
-  background-size: cover;
+  background-image: url(./assets/Bg.jpg);
+  background-position: top center;
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  /*background-color: #121214;*/
+  background-color: #121214;
 }
 
 body * {
@@ -68,16 +66,16 @@ main {
 
 section {
   color: white;
-  /*background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);*/
+  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  padding-top: 4px;
+  border-radius: 10px;
 }
 
 section div {
-  background-color: #ffffff10;
-  backdrop-filter: blur(30px);
+  background-color: #2A2634;
   padding: 32px;
   padding-top: 24px;
   border-radius: 8px;
-  border: 2px solid #ffffff40;
 }
 
 section h2 {
